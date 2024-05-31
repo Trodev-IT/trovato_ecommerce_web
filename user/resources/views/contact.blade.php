@@ -7,11 +7,11 @@
     <meta name="keywords" content="asha, asharalo, asha alo, ASHAR shop, premium products, high-quality, online shopping">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ashar Alo Shop</title>
+    <title>TroVato Hub</title>
     <script src="https://kit.fontawesome.com/a87236255f.js" crossorigin="anonymous"></script>
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
-    
+
     <link rel="icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
     <link rel="shortcut icon" href="{{asset('favicon.ico')}}" type="image/x-icon">
 
@@ -34,6 +34,11 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
+
+@php
+$email ='trovatoltd@gmail.com';
+$mobile = '+88 01955554447';
+@endphp
 
 <body>
 <!-- Page Preloder -->
@@ -76,14 +81,14 @@
         </ul>
     </nav>
     <div id="mobile-menu-wrap"></div>
-    <div class="header__top__right__social">
+    {{-- <div class="header__top__right__social">
         <a href="https://www.facebook.com/asharaloshop?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
         <a href="https://wa.me/message/ZVA3MRCTKK3ZG1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
         <a href="https://www.tiktok.com/@asharaloshop?lang=en&is_from_webapp=1&sender_device=mobile&sender_web_id=7352553370950321682" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-    </div>
+    </div> --}}
     <div class="humberger__menu__contact">
         <ul>
-            <li><i class="fa fa-envelope"></i>support@asharaloshop.xyz</li>
+            <li><i class="fa fa-envelope"></i>{{$email}}</li>
 
         </ul>
     </div>
@@ -98,18 +103,18 @@
                 <div class="col-lg-6">
                     <div class="header__top__left">
                         <ul>
-                            <li><i class="fa fa-envelope"></i> support@asharaloshop.xyz</li>
+                            <li><i class="fa fa-envelope"></i>trovatoltd@gmail.com</li>
 
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="header__top__right">
-                        <div class="header__top__right__social">
+                        {{-- <div class="header__top__right__social">
                             <a href="https://www.facebook.com/asharaloshop?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                             <a href="https://wa.me/message/ZVA3MRCTKK3ZG1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                             <a href="https://www.tiktok.com/@asharaloshop?lang=en&is_from_webapp=1&sender_device=mobile&sender_web_id=7352553370950321682" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-                        </div>
+                        </div> --}}
                         <div class="header__top__right__language">
                             <img src="img/language.png" alt="">
                             <div>English</div>
@@ -191,7 +196,7 @@
                             <i class="fa fa-phone"></i>
                         </div>
                         <div class="hero__search__phone__text">
-                            <h5>+88 01706821156</h5>
+                            <h5>+88 01955554447</h5>
                             <span>support 24/7 time</span>
                         </div>
                     </div>
@@ -203,7 +208,7 @@
 <!-- Hero Section End -->
 
 <!-- Breadcrumb Section Begin -->
-<section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
+{{-- <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -217,7 +222,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- Breadcrumb Section End -->
 
 <!-- Contact Section Begin -->
@@ -228,14 +233,14 @@
                 <div class="contact__widget">
                     <span class="icon_phone"></span>
                     <h4>Phone</h4>
-                    <p>+88 01706821156</p>
+                    <p>+88 01955554447</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 text-center">
                 <div class="contact__widget">
                     <span class="icon_pin_alt"></span>
                     <h4>Address</h4>
-                    <p>Hazi Market, Tongi, Gazipur </p>
+                    <p>Govt Primary School Road, Dattapara, House-building, Tongi, Gazipur</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6 text-center">
@@ -249,7 +254,7 @@
                 <div class="contact__widget">
                     <span class="icon_mail_alt"></span>
                     <h4>Email</h4>
-                    <p>support@asharaloshop.xyz</p>
+                    <p>trovatoltd@gmail.com</p>
                 </div>
             </div>
         </div>
@@ -265,9 +270,9 @@
         <div class="inside-widget">
             <h4>Bangladesh</h4>
             <ul>
-                <li>Address: Hazi Market, Tongi, Gazipur </li>
-                <li>Phone: +88 01706821156</li>
-                <li>Email: support@asharaloshop.xyz</li>
+                <li>Address: Govt Primary School Road, Dattapara, House-building, Tongi, Gazipur</li>
+                <li>Phone: +88 01955554447</li>
+                <li>Email: trovatoltd@gmail.com</li>
             </ul>
         </div>
     </div>
@@ -280,7 +285,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="contact__form__title">
-                    <h2>Leave Message</h2>
+                    <h2>Inform us with Message</h2>
                 </div>
             </div>
         </div>
@@ -316,9 +321,9 @@
                         <a href="{{route('home')}}"><img src="img/logo.png" alt=""></a>
                     </div>
                     <ul>
-                        <li>Address: Hazi Market, Tongi, Gazipur </li>
-                        <li>Phone: +88 01706821156</li>
-                        <li>Email: support@asharaloshop.xyz</li>
+                        <li>Address: Govt Primary School Road, Dattapara, House-building, Tongi, Gazipur</li>
+                        <li>Phone: +88 01955554447</li>
+                        <li>Email: trovatoltd@gmail.com</li>
                     </ul>
                 </div>
             </div>
@@ -328,9 +333,9 @@
                     <ul>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">About Our Shop</a></li>
-                        <li><a href="#">Secure Shopping</a></li>
+                        <li><a href="#">Secure Payment</a></li>
                         <li><a href="#">Delivery infomation</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="https://www.freeprivacypolicy.com/live/841b3548-08f3-408e-93e9-71b6751c0fd6">Privacy Policy</a></li>
                         <li><a href="#">Our Sitemap</a></li>
                     </ul>
                 </div>
@@ -338,11 +343,11 @@
             <div class="col-lg-4 col-md-12">
                 <div class="footer__widget">
 
-                    <div class="footer__widget__social">
+                    {{-- <div class="footer__widget__social">
                         <a href="https://www.facebook.com/asharaloshop?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                         <a href="https://wa.me/message/ZVA3MRCTKK3ZG1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                         <a href="https://www.tiktok.com/@asharaloshop?lang=en&is_from_webapp=1&sender_device=mobile&sender_web_id=7352553370950321682" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -350,7 +355,7 @@
             <div class="col-lg-12">
                 <div class="footer__copyright">
                     <div class="footer__copyright__text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by Ashar Alo Shop | Developed by <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://www.trodev.com" target="_blank">Trodev</a>
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by TroVato Hub | Developed by <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://www.trodev.com" target="_blank">Trodev</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
                     <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
                 </div>

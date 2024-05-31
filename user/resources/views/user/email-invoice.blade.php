@@ -49,9 +49,9 @@
     <tfooter>
         <tr>
             <td colspan="2" style="font-size:14px;padding:50px 15px 0 15px;">
-                <strong style="display:block;margin:0 0 10px 0;">Regards</strong> Ashar Alo Shop<br> Doripara, Jamalpur Sadar, Jamalpur<br><br>
-                <b>Phone:</b> +88 01706821156<br>
-                <b>Email:</b> mr.tubraji@gmail.com
+                <strong style="display:block;margin:0 0 10px 0;">Regards</strong> TroVato Hub<br> Govt Primary School Road, Dattapara, House-building, Tongi, Gazipur<br><br>
+                <b>Phone:</b> +88 01955554447<br>
+                <b>Email:</b> trovatoltd@gmail.com
             </td>
         </tr>
     </tfooter>

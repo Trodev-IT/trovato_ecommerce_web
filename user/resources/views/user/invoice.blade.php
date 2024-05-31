@@ -62,9 +62,9 @@
                                     <div class="invoice-number">
                                         <h4 class="inv-title-1">Invoice To</h4>
                                         <p class="invo-addr-1 mb-0">
-                                            Ashar Alo Shop <br/>
-                                            mr.tubraji@gmail.com <br/>
-                                            Doripara, Jamalpur Sadar, Jamalpur, Bangladesh <br/>
+                                            TroVato Hub <br/>
+                                            trovatoltd@gmail.com<br/>
+                                            Govt Primary School Road, Dattapara, House-building, Tongi, Gazipur <br/>
                                         </p>
                                     </div>
                                 </div>

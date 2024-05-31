@@ -7,10 +7,10 @@
     <meta name="keywords" content="asha, asharalo, asha alo, ASHAR shop, premium products, high-quality, online shopping">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ashar Alo Shop</title>
+    <title>TroVato Hub</title>
     <script src="https://kit.fontawesome.com/a87236255f.js" crossorigin="anonymous"></script>
     <!-- Google Font -->
-    
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0Y5TLG7WD0"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
@@ -65,6 +65,13 @@
 
 </head>
 
+@php
+
+$email ='trovatoltd@gmail.com';
+$mobile = '+88 01955554447';
+
+@endphp
+
 <body>
 <!-- Page Preloder -->
 <div id="preloder">
@@ -111,15 +118,15 @@
         </ul>
     </nav>
     <div id="mobile-menu-wrap"></div>
-    <div class="header__top__right__social">
+    {{-- <div class="header__top__right__social">
         <a href="https://www.facebook.com/asharaloshop?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
         <a href="https://wa.me/message/ZVA3MRCTKK3ZG1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
         <a href="https://www.youtube.com/playlist?list=PLc0caqXFxGLyuh_CVADpZZKpCKlmZg9CU" target="_blank"><i class="fa-brands fa-youtube"></i></a>
         <a href="https://www.tiktok.com/@asharaloshop?lang=en&is_from_webapp=1&sender_device=mobile&sender_web_id=7352553370950321682" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-    </div>
+    </div> --}}
     <div class="humberger__menu__contact">
         <ul>
-            <li><i class="fa fa-envelope"></i> mr.tubraji@gmail.com</li>
+            <li><i class="fa fa-envelope"></i> {{$email}}</li>
 
         </ul>
     </div>
@@ -134,19 +141,19 @@
                 <div class="col-lg-6">
                     <div class="header__top__left">
                         <ul>
-                            <li><i class="fa fa-envelope"></i> mr.tubraji@gmail.com</li>
+                            <li><i class="fa fa-envelope"></i> {{$email}}</li>
 
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="header__top__right">
-                        <div class="header__top__right__social">
+                        {{-- <div class="header__top__right__social">
                             <a href="https://www.facebook.com/asharaloshop?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
                             <a href="https://wa.me/message/ZVA3MRCTKK3ZG1" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
                             <a href="https://www.youtube.com/playlist?list=PLc0caqXFxGLyuh_CVADpZZKpCKlmZg9CU" target="_blank"><i class="fa-brands fa-youtube"></i></a>
                             <a href="https://www.tiktok.com/@asharaloshop?lang=en&is_from_webapp=1&sender_device=mobile&sender_web_id=7352553370950321682" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
-                        </div>
+                        </div> --}}
                         <div class="header__top__right__language">
                             <img src="{{asset('img/language.png')}}" alt="">
                             <div>English</div>
@@ -233,7 +240,7 @@
                             <i class="fa fa-phone"></i>
                         </div>
                         <div class="hero__search__phone__text">
-                            <h5>+88 01706821156</h5>
+                            <h5>{{$mobile}}</h5>
                             <span>support 24/7 time</span>
                         </div>
                     </div>
@@ -245,7 +252,7 @@
 <!-- Hero Section End -->
 
 <!-- Breadcrumb Section Begin -->
-<section class="breadcrumb-section set-bg" data-setbg="{{asset('img/breadcrumb.jpg')}}">
+{{-- <section class="breadcrumb-section set-bg" data-setbg="{{asset('img/breadcrumb.jpg')}}">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -259,7 +266,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- Breadcrumb Section End -->
 
 <!-- Checkout Section Begin -->
@@ -388,7 +395,7 @@
                                 </div>
                             </div>
                             <div class="checkout__input__checkbox">
-                                <label for="diff-acc">Ship to a different address?</label>
+                                <label for="diff-acc">Ship to a different mail address?</label>
                                 <input type="checkbox" id="diff-acc" name="ship">
                                 <span class="checkmark"></span>
                             </div>
@@ -582,11 +589,11 @@
                             </ul>
                             <div class="checkout__order__subtotal" id="subtotal">Subtotal <span>TK 0.00</span></div>
 
-                            <p>
+                            {{-- <p>
                                 All Bangladesh delivery charges: 120Tk <br />
                                 Gazipur, Keraniganj, Savar delivery charges: 100Tk <br/>
                                 Inside of Dhaka delivery charges: 60Tk
-                            </p>
+                            </p> --}}
 
                             <div class="checkout__order__total" id="total">Total <span>TK 0.00</span></div>
                             <script>
@@ -624,7 +631,7 @@
                             <div class="checkout__input__checkbox">
                                 <label for="bKash">
                                     <img src="{{asset('Bkash.png')}}" alt="bKash" style="width: 30px; height: 30px;"/>
-                                    bKash 01308622612
+                                    bKash 01777614837
                                     <input type="radio" name="payment_method" id="bKash" value="bKash" onclick="showPaymentInput()" />
                                     <span class="checkmark"></span>
                                 </label>
@@ -632,7 +639,7 @@
                             <div class="checkout__input__checkbox">
                                 <label for="nagad">
                                     <img src="{{asset('Nagad.png')}}" alt="bKash" style="width: 30px; height: 30px;"/>
-                                    Nagad 01308622612
+                                    Nagad 01777614837
                                     <input type="radio" name="payment_method" id="nagad" value="nagad" onclick="showPaymentInput()" />
                                     <span class="checkmark"></span>
                                 </label>
@@ -684,9 +691,9 @@
                         <a href="{{route('welcome',['id'=>$id->id])}}"><img src="{{asset('img/logo.png')}}" alt=""></a>
                     </div>
                     <ul>
-                        <li>Address: Doripara, Jamalpur Sadar, Jamalpur</li>
-                        <li>Phone: +88 01706821156</li>
-                        <li>Email: mr.tubraji@gmail.com</li>
+                        <li>Address: Govt Primary School Road, Dattapara, House-building, Tongi, Gazipur</li>
+                        <li>Phone: {{$mobile}}</li>
+                        <li>Email: {{$email}}</li>
                     </ul>
                 </div>
             </div>
@@ -696,9 +703,9 @@
                     <ul>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">About Our Shop</a></li>
-                        <li><a href="#">Secure Shopping</a></li>
+                        <li><a href="#">Secure Payment</a></li>
                         <li><a href="#">Delivery infomation</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="https://www.freeprivacypolicy.com/live/841b3548-08f3-408e-93e9-71b6751c0fd6">Privacy Policy</a></li>
                         <li><a href="#">Our Sitemap</a></li>
                     </ul>
                 </div>

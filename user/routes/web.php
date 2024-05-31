@@ -29,23 +29,23 @@ Route::post('/insert',[LoginRegistration::class,'createRegistration'])->name('cr
 Route::post('/login',[LoginRegistration::class,'login'])->name('login');
 
 
-Route::get('/email/verify', function () {
-    return view('auth.verify-email');
-})->middleware('auth')->name('verification.notice');
+// Route::get('/email/verify', function () {
+//     return view('auth.verify-email');
+// })->middleware('auth')->name('verification.notice');
 
-Route::get('/email/verify/{id}/{hash}', function (\Illuminate\Foundation\Auth\EmailVerificationRequest $request) {
-    $request->fulfill();
-    $userId = $request->user()->id;
-    event(new \Illuminate\Auth\Events\Verified($request->user()));
-    return redirect()->route('welcome', ['id' => $userId]); // Pass the user's ID as a parameter
-})->middleware(['auth', 'signed'])->name('verification.verify');
+// Route::get('/email/verify/{id}/{hash}', function (\Illuminate\Foundation\Auth\EmailVerificationRequest $request) {
+//     $request->fulfill();
+//     $userId = $request->user()->id;
+//     event(new \Illuminate\Auth\Events\Verified($request->user()));
+//     return redirect()->route('welcome', ['id' => $userId]); // Pass the user's ID as a parameter
+// })->middleware(['auth', 'signed'])->name('verification.verify');
 
 
-Route::post('/email/verification-notification', function (Request $request) {
-    $request->user()->sendEmailVerificationNotification();
+// Route::post('/email/verification-notification', function (Request $request) {
+//     $request->user()->sendEmailVerificationNotification();
 
-    return back()->with('message', 'Verification link sent!');
-})->middleware(['auth'])->name('verification.send');
+//     return back()->with('message', 'Verification link sent!');
+// })->middleware(['auth'])->name('verification.send');
 
 
 Route::get('/forgot-password',[LoginRegistration::class,'forget'])->middleware('guest')->name('password.request');
@@ -113,7 +113,7 @@ Route::get('logout',[LoginRegistration::class,'logout'])->name('logout');
 
 
 
-Route::middleware(['auth','verified'])->group(function (){
+Route::middleware(['auth'])->group(function (){
         Route::get('/welcome/{id}',[LoginRegistration::class,'welcome'])->name('welcome');
 
         Route::get('/product-details/{id}/{prod}',[userdashboard::class,'product_details'])->name('product_details');
