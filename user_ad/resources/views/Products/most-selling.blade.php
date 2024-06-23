@@ -27,7 +27,7 @@
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Most Selling | Ashar Alo Shop</title>
+    <title>Most Selling | TroVato HUB</title>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FRZFYEXM5Z"></script>

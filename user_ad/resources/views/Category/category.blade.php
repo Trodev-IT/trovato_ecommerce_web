@@ -26,7 +26,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
-    
+
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FRZFYEXM5Z"></script>
 <script>
@@ -37,7 +37,7 @@
   gtag('config', 'G-FRZFYEXM5Z');
 </script>
 
-    <title>Category | Ashar Alo Shop</title>
+    <title>Category | TroVato HUB</title>
 
     <meta name="description" content="" />
 

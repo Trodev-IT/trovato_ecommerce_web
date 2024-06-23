@@ -1,17 +1,4 @@
 <!DOCTYPE html>
-
-<!-- =========================================================
-* Ashar Alo Shop - Bootstrap 5 HTML Admin Template - Pro | v1.0.0
-==============================================================
-
-* Product Page: https://themeselection.com/products/Ashar Alo Shop-bootstrap-html-admin-template/
-* Created by: ThemeSelection
-* License: You must have a valid license purchased in order to legally use the theme for your project.
-* Copyright ThemeSelection (https://themeselection.com)
-
-=========================================================
- -->
-<!-- beautify ignore:start -->
 <html
     lang="en"
     class="light-style layout-menu-fixed"
@@ -36,7 +23,7 @@
 
   gtag('config', 'G-FRZFYEXM5Z');
 </script>
-    <title>Edit Products | Ashar Alo Shop</title>
+    <title>Edit Products | TroVato HUB</title>
     <script src="https://kit.fontawesome.com/a87236255f.js" crossorigin="anonymous"></script>
     <meta name="description" content="" />
 
@@ -351,44 +338,6 @@
                                             </div>
                                         </div>
 
-                                        <div class="row mb-3">
-                                            <label class="col-sm-2 col-form-label" for="basic-icon-default-discount">Discount</label>
-                                            <div class="col-sm-10">
-                                                <div class="input-group input-group-merge">
-                                                    <span class="input-group-text"><i class="fa-solid fa-money-bill"></i></span>
-                                                    <input
-                                                        type="number"
-                                                        id="basic-icon-default-discount"
-                                                        class="form-control"
-                                                        name="discount"
-                                                       
-                                                        aria-label="Discount"
-                                                        aria-describedby="basic-icon-default-discount"
-                                                        oninput="calculateDiscount()"
-                                                    />
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row mb-3">
-                                            <label class="col-sm-2 col-form-label" for="basic-icon-default-discountPrice">Discounted Price</label>
-                                            <div class="col-sm-10">
-                                                <div class="input-group input-group-merge">
-                                                    <span class="input-group-text"><i class="fa-solid fa-money-bill"></i></span>
-                                                    <input
-                                                        type="number"
-                                                        id="basic-icon-default-discountPrice"
-                                                        class="form-control"
-                                                        name="discountPrice"
-                                                        aria-label="Discounted Price"
-                                                        aria-describedby="basic-icon-default-discountPrice"
-                                                    
-                                                        readonly
-                                                    />
-                                                </div>
-                                            </div>
-                                        </div>
-
                                         <script>
                                             function calculateDiscount() {
                                                 var price = parseFloat(document.getElementById('basic-icon-default-price').value);
@@ -411,24 +360,137 @@
                                         </script>
 
 
-                                        <div class="row mb-3">
-                                            <label class="col-sm-2 form-label" for="basic-icon-default-phone">Stock</label>
-                                            <div class="col-sm-10">
-                                                <div class="input-group input-group-merge">
-                              <span id="basic-icon-default-phone2" class="input-group-text"
-                              ><i class="fa-solid fa-warehouse"></i></span>
-                                                    <input
-                                                        type="number"
-                                                        id="basic-icon-default-phone"
-                                                        class="form-control phone-mask"
-                                                        value="{{$product->stock}}"
-                                                        name="stock"
-                                                        aria-label="658 799 8941"
-                                                        aria-describedby="basic-icon-default-phone2"
-                                                    />
-                                                </div>
-                                            </div>
-                                        </div>
+<div class="row mb-3">
+    <label class="col-sm-2 col-form-label" for="basic-icon-default-email">Product Price</label>
+    <div class="col-sm-10">
+        <div class="input-group input-group-merge">
+            <span class="input-group-text"><i class="fa-solid fa-money-bill"></i></span>
+            <input
+                type="number"
+                id="basic-icon-default-email"
+                class="form-control"
+                name="price"
+                placeholder="Product Price"
+                aria-label="john.doe"
+                aria-describedby="basic-icon-default-email2"
+            />
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">License Mode</label>
+    <div class="col-sm-10">
+        <div class="input-group input-group-merge">
+          <span id="basic-icon-default-fullname2" class="input-group-text"><i class="fa-solid fa-box"></i></span>
+            <input
+                type="text"
+                name="license_mode"
+                class="form-control"
+                id="basic-icon-default-fullname"
+                placeholder="License Mode"
+                aria-label="John Doe"
+                aria-describedby="basic-icon-default-fullname2"
+                maxlength="50"
+            />
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">Support Device</label>
+    <div class="col-sm-10">
+        <div class="input-group input-group-merge">
+          <span id="basic-icon-default-fullname2" class="input-group-text"><i class="fa-solid fa-box"></i></span>
+            <input
+                type="text"
+                name="support_device"
+                class="form-control"
+                id="basic-icon-default-fullname"
+                placeholder="Support Device"
+                aria-label="John Doe"
+                aria-describedby="basic-icon-default-fullname2"
+                maxlength="50"
+            />
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">Product File Size</label>
+    <div class="col-sm-10">
+        <div class="input-group input-group-merge">
+          <span id="basic-icon-default-fullname2" class="input-group-text"><i class="fa-solid fa-box"></i></span>
+            <input
+                type="text"
+                name="file_size"
+                class="form-control"
+                id="basic-icon-default-fullname"
+                placeholder="File Size"
+                aria-label="John Doe"
+                aria-describedby="basic-icon-default-fullname2"
+                maxlength="50"
+            />
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">Zip Link</label>
+    <div class="col-sm-10">
+        <div class="input-group input-group-merge">
+          <span id="basic-icon-default-fullname2" class="input-group-text"><i class="fa-solid fa-box"></i></span>
+            <input
+                type="text"
+                name="zip_link"
+                class="form-control"
+                id="basic-icon-default-zip"
+                placeholder="Zip Link"
+                aria-label="John Doe"
+                aria-describedby="basic-icon-default-fullname2"
+                maxlength="50"
+            />
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">Zip Password</label>
+    <div class="col-sm-10">
+        <div class="input-group input-group-merge">
+          <span id="basic-icon-default-fullname2" class="input-group-text"><i class="fa-solid fa-box"></i></span>
+            <input
+                type="text"
+                name="zip_password"
+                class="form-control"
+                id="basic-icon-default-fullname"
+                placeholder="Zip Password"
+                aria-label="John Doe"
+                aria-describedby="basic-icon-default-fullname2"
+                maxlength="50"
+            />
+        </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname">Live Link</label>
+    <div class="col-sm-10">
+        <div class="input-group input-group-merge">
+          <span id="basic-icon-default-fullname2" class="input-group-text"><i class="fa-solid fa-box"></i></span>
+            <input
+                type="text"
+                name="live_link"
+                class="form-control"
+                id="basic-icon-default-fullname"
+                placeholder="Live Link"
+                aria-label="John Doe"
+                aria-describedby="basic-icon-default-fullname2"
+                maxlength="50"
+            />
+        </div>
+    </div>
+</div>
                                         <div class="row mb-3">
                                             <label class="col-sm-2 form-label" for="basic-icon-default-message">Image</label>
                                             <div class="col-sm-10">

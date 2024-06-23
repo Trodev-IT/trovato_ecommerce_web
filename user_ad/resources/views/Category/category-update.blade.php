@@ -1,17 +1,5 @@
 <!DOCTYPE html>
 
-<!-- =========================================================
-* Ashar Alo Shop - Bootstrap 5 HTML Admin Template - Pro | v1.0.0
-==============================================================
-
-* Product Page: https://themeselection.com/products/Ashar Alo Shop-bootstrap-html-admin-template/
-* Created by: ThemeSelection
-* License: You must have a valid license purchased in order to legally use the theme for your project.
-* Copyright ThemeSelection (https://themeselection.com)
-
-=========================================================
- -->
-<!-- beautify ignore:start -->
 <html
     lang="en"
     class="light-style layout-menu-fixed"
@@ -35,7 +23,7 @@
 
   gtag('config', 'G-FRZFYEXM5Z');
 </script>
-    <title>Category - Update | Ashar Alo Shop</title>
+    <title>Category - Update | TroVato HUB</title>
 
     <meta name="description" content="" />
 

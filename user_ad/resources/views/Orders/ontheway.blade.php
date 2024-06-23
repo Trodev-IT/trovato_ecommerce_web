@@ -16,7 +16,7 @@
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>On The Way | Ashar Alo Shop</title>
+    <title>On The Way | TroVato HUB</title>
 
     <meta name="description" content="" />
 

@@ -21,7 +21,7 @@
     data-template="vertical-menu-template-free"
 >
 <head>
-    
+
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FRZFYEXM5Z"></script>
 <script>
@@ -37,7 +37,7 @@
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Sub-Category - Updates | Ashar Alo Shop</title>
+    <title>Sub-Category - Updates | TroVato HUB</title>
 
     <meta name="description" content="" />
 

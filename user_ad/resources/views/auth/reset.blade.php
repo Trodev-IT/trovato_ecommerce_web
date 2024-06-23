@@ -14,7 +14,7 @@
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Reset Password | Ashar Alo Shop</title>
+    <title>Reset Password | TroVato HUB</title>
 
     <meta name="description" content="" />
 
